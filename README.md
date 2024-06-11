@@ -183,4 +183,10 @@
     ]
 }
 
+![getcloth-page1](https://github.com/Ansell10/Dressify-Login-Register/assets/114125933/36f9bbfa-0a28-43e2-b494-450345080be5)
+
+![getcloth-page2](https://github.com/Ansell10/Dressify-Login-Register/assets/114125933/00103c17-4f3c-486c-9e2b-c8c28a1f29ce)
+
+
+
 
