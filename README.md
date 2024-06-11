@@ -61,3 +61,126 @@
 }
 ```
 
+
+### List
+- URL
+    - `/list`
+- Method
+    - `GET`
+- Request Parameters 
+    - `page` (optional, integer): Page number for pagination. Defaults to 1 if not provided.
+    - `size` (optional, integer): Number of items per page. Defaults to 10 if not provided.
+- Response
+```json
+{
+    "error": false,
+    "message": "Clothing items fetched successfully",
+    "totalItems": 310,
+    "totalPages": 31,
+    "currentPage": 1,
+    "pageSize": 10,
+    "clothingItems": [
+        {
+            "id": 1,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "Black",
+            "season": "Summer",
+            "usages": "Casual",
+            "product_display_name": "Nope Women Black T-Shirts",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/1.png\r"
+        },
+        {
+            "id": 2,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "Black",
+            "season": "Rainy",
+            "usages": "Casual",
+            "product_display_name": "Knitwear Women Black T-Shirts ",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/2.png\r"
+        },
+        {
+            "id": 3,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "Black",
+            "season": "Summer",
+            "usages": "Casual",
+            "product_display_name": "Black Butterfly Women T-Shirts",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/3.png\r"
+        },
+        {
+            "id": 4,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "White",
+            "season": "Summer",
+            "usages": "Casual",
+            "product_display_name": "Cherry White Pink T-Shirts",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/4.png\r"
+        },
+        {
+            "id": 5,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "White",
+            "season": "Summer",
+            "usages": "Casual",
+            "product_display_name": "Cute Dog Women T-Shirts",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/5.png\r"
+        },
+        {
+            "id": 6,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "White",
+            "season": "Rainy",
+            "usages": "Casual",
+            "product_display_name": "Knitwear Women White T-Shirts ",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/6.png\r"
+        },
+        {
+            "id": 7,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "Blue",
+            "season": "Rainy",
+            "usages": "Casual",
+            "product_display_name": "Blue Sweater Ocean",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/7.png\r"
+        },
+        {
+            "id": 8,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "Blue",
+            "season": "Summer",
+            "usages": "Casual",
+            "product_display_name": "Croptop Women Blue T-Shirts",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/8.png\r"
+        },
+        {
+            "id": 9,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "Blue",
+            "season": "Summer",
+            "usages": "Sports",
+            "product_display_name": "Sports Women Blue T-Shirts",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/9.png\r"
+        },
+        {
+            "id": 10,
+            "gender": "Female",
+            "type_of_clothing": "Tshirts",
+            "color": "Brown",
+            "season": "Summer",
+            "usages": "Casual",
+            "product_display_name": "Off-White Women Brown T-Shirts",
+            "picture_link": "https://storage.googleapis.com/clothing-dressify/data/10.png\r"
+        }
+    ]
+}
+
+
