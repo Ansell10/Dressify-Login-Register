@@ -18,6 +18,9 @@
 }
 ```
 
+![User-Register](https://github.com/Ansell10/Dressify-Login-Register/assets/128909158/26fd8150-e99d-4c23-9bfa-1ba3029be9b8)
+
+
 ### Login
 - URL
     - `/register`
@@ -39,6 +42,9 @@
     }
 }
 ```
+
+![User-Login](https://github.com/Ansell10/Dressify-Login-Register/assets/128909158/5f04ef15-6261-4a77-a8b0-f3454b7ca9ff)
+
 
 ### Logout
 - URL

@@ -1,5 +1,5 @@
 const express = require('express');
-const { check, validationResult } = require('express-validator');
+const { query, check, validationResult } = require('express-validator');
 const router = express.Router();
 const authController = require('../controllers/authController');
 const authMiddleware = require('../middlewares/authMiddleware');
@@ -32,6 +32,21 @@ router.post(
       return res.status(400).json({ errors: errors.array() });
     }
     authController.login(req, res, next);
+  }
+);
+
+router.get(
+  '/list',
+  [
+    query('page', 'Page number must be a positive integer').optional().isInt({ min: 1 }),
+    query('size', 'Size must be a positive integer').optional().isInt({ min: 1 }),
+  ],
+  (req, res) => {
+    const errors = validationResult(req);
+    if (!errors.isEmpty()) {
+      return res.status(400).json({ errors: errors.array() });
+    }
+    authController.list(req, res);
   }
 );
 
